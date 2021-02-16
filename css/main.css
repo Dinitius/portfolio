@@ -7,6 +7,10 @@
 	font-family: 'Big Shoulders Display', cursive;
 }
 
+body {
+	min-width: 375px;
+}
+
 a {
 	outline: none;
 	text-decoration: none;
