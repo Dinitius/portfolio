@@ -1,16 +1,22 @@
+@media (max-width: 1920px) {
+	.about_me {
+		background-size: 50%;
+	}
+}
 @media (max-width: 1366px) {
 	.about_me {
+		height: 470px;
 		background-size: 45%;
+		padding: 50px;
 	}
 	.text_box {
 		height: 350px;
+		width: 570px;
 	}
 
-	.avatar {
-		left: 10%;
-		top: 14%;
+	.basic_text {
+		margin-top: 25px;
 	}
-
 	.projects {
 		padding: 50px 50px 25px 50px;
 	}
@@ -37,11 +43,11 @@
 	.avatar {
 		width: 150px;
 		height: 150px;
-		left: 7%;
-		top: 11%;
+		left: 0;
 	}
 
 	.about_me {
+		background-size: 35%;
 		padding: 50px;
 		height: 500px;
 	}
@@ -56,11 +62,6 @@
 }
 
 @media (max-width: 768px) {
-	.avatar {
-		left: 7%;
-		top: 10%;
-	}
-
 	.about_me {
 		padding: 25px;
 		height: 550px;
@@ -96,10 +97,6 @@
 		font-size: 32px;
 	}
 
-	.avatar {
-		left: 35%;
-		top: 10%;
-	}
 	.about_me {
 		padding: 25px;
 		height: 600px;
@@ -127,6 +124,15 @@
 		align-items: center;
 		height: 200px;
 	}
+
+	.text_box {
+		max-width: 300px;
+	}
+
+	.about_me {
+		padding: 25px;
+		height: 650px;
+	}
 }
 
 @media (max-width: 375px) {
@@ -140,10 +146,6 @@
 	.link {
 		text-align: center;
 	}
-	.avatar {
-		left: 30%;
-		top: 13%;
-	}
 
 	.about_me {
 		padding: 25px;
@@ -152,6 +154,12 @@
 
 	.text_box {
 		font-size: 16px;
-		max-width: 330px;
+		max-width: 300px;
+	}
+
+	.project {
+		width: 250px;
+		height: 125px;
+		border-radius: 20px;
 	}
 }

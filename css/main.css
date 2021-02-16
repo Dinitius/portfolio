@@ -81,9 +81,8 @@ h2 {
 	background: no-repeat center center;
 	background-image: url("../img/ava.jpg");
 	background-size: 100%;
-	position: absolute;
-	left: 15%;
-	top: 15%;
+	position: relative;
+	left: -30%;
 }
 
 .title {
@@ -91,6 +90,7 @@ h2 {
 	font-weight: 900;
 	letter-spacing: 1px;
 	color: #52d0fa;
+	margin: 0;
 }
 
 .about_me {
