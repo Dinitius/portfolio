@@ -137,14 +137,9 @@ h2 {
 	width: 500px;
 	height: 300px;
 	border-radius: 20px;
-	padding: 30px;
 	background-color: black;
 	background-blend-mode: multiply;
 	margin: 25px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .spacex {
@@ -153,7 +148,7 @@ h2 {
 }
 
 .project:hover {
-	background-color: rgba(42, 42, 42, 0.6);
+	background-color: rgba(42, 42, 42, 0.75);
 }
 
 .net {
@@ -173,12 +168,18 @@ h2 {
 
 .pr_name {
 	color: white;
-	font-size: 22px;
+	font-size: 26px;
 }
 
 .pr_title {
+	padding: 20px;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	color: white;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .hide {
