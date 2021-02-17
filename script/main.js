@@ -47,7 +47,7 @@ const trackScroll = () => {
 
 const scrollTop = () => {
   if (window.pageYOffset > 0) {
-    window.scrollBy(0, -30);
+    window.scrollBy(0, -15);
     setTimeout(scrollTop, 0);
   }
 }
